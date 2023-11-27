@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: "Roboto", "sans-serif"; font-size: 16px;color : #666666; margin: 0
+}
+header{
+	width: 100%; height: 70px; background-color: beige; border-bottom: 1px solid darkred
+}
+.banner{
+	width: 100%; min-height: 500px;
+}
+aside{
+	width: 100%; min-height: 500px;
+}
+main{
+	width: 100%;min-height: 500px;
+}
+footer{
+	width: 100%;min-height: 200px;background-color: #EEEEEE
+}
+.logo{
+	padding-top: 8px;
+}
+.menu{
+	padding-top: 6px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex;padding-top: 20px
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; font-size: 17px; color: #646464; text-transform: uppercase; border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color: #E9B166;color: black; font-size: 20px;
+}
+footer a{
+	color: black;
+}
+
+#slider .owl-dots{ position:absolute; bottom: 10px; left:48%;}
+#slider .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#91A9FD;
+      text-decoration: none; }
+
+#slider .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      margin: 5px 7px;
+      background:#FC0;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+ #slider .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background: #4DC7A0; }
+.text-primary{
+	color:red;
+}
+.text-den{
+	color: black;
+}
+aside ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column;
+}
+aside ul li	{
+	border-bottom: 1px solid #666666
+}
+aside ul li a{
+	text-decoration: none;padding: 10px;display: block;color: #666666
+}
+aside ul li a:hover{
+	background-color: red; color: aliceblue
+}
+.text-center{
+	text-align: center
+}
+.color-blue{
+	background-color: #5FD5FF
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column;
+}
+footer ul li a{
+	text-decoration: none;padding: 10px;display: block;color: #666666;
+}
+footer ul li a:hover{
+	color: black; font-size: 25px;
+}
+.icon-size{
+	margin: 23px; padding: 0;width: 60px; height: auto;
+}
